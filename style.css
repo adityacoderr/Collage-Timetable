@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Comfortaa&family=Kalnia:wght@200&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+     border: none;
+     text-decoration: none;
+     font-family: Montserrat;
+}
+
+html,
+body {
+     height: 100%;
+     width: 100%;
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(39, 13, 63);
+     flex-direction: column;
+     gap: 10px;
+     padding: 2%;
+}
+
+main {
+     min-height: 30vh;
+     width: 90%;
+     background-color: #dadada;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 0px;
+     border-radius: 25px;
+}
+
+.date {
+     width: 60vw;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+h1 {
+     font-family: poppins;
+     padding: 15px 0;
+     font-size: 23px;
+}
+
+.container {
+     padding: 3%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     flex-direction: column;
+     padding-bottom: 20px;
+}
+
+select {
+     padding: 10px;
+     border: 2px solid #ddd;
+     border-radius: 15px;
+     background-color: #fff;
+     color: gray;
+}
+
+table {
+     border-collapse: collapse;
+     width: 90%;
+
+
+}
+
+th,
+td {
+     padding: 10px;
+     border: 1px solid #dada;
+     text-align: center;
+     font-size: 13px;
+}
+
+th {
+     background-color: #dada;
+
+}
+
+.top {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* gap: 10px; */
+     flex-direction: column;
+}
+
+.din {
+     background-color: rgb(39, 13, 63);
+     padding: 10px;
+     border-radius: 20px;
+     color: white;
+}
+
+footer {
+     color: rgb(186, 149, 223);
+     font-family: poppins;
+     margin-top: 30px;
+}
+
+a {
+     color: rgb(186, 149, 223);
+}
